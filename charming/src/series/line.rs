@@ -39,6 +39,7 @@ pub struct Line {
     mark_line: Option<MarkLine>,
     mark_area: Option<MarkArea>,
     dataset_id: Option<String>,
+    dataset_index: Option<i32>,
     encode: Option<DimensionEncode>,
     x_axis_index: Option<f64>,
     y_axis_index: Option<f64>,
